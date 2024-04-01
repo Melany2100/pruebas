@@ -1,51 +1,6 @@
 {
-  "openapi": "3.0.3",
-  "info": {
-    "title": "Api Prueba",
-    "version": "1.0.11"
-  },
-  "servers": [
-    {
-      "url": "https://api-prueba.com"
-    }
-  ],
-  "paths": {
-    "/persona": {
-      "get": {
-        "summary": "Obtener información de la persona",
-        "responses": {
-          "200": {
-            "description": "Respuesta exitosa",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "object",
-                  "properties": {
-                    "Id": {
-                      "type": "string"
-                    },
-                    "Name": {
-                      "type": "string"
-                    },
-                    "Age": {
-                      "type": "integer"
-                    },
-                    "Address": {
-                      "type": "string"
-                    }
-                  },
-                  "required": [
-                    "Id",
-                    "Name",
-                    "Age",
-                    "Address"
-                  ]
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
+  "Id" : "2",
+  "Name" : "ABC",
+  "Age" : "32",
+  "Address" : "Guayaquil
 }
